@@ -16,3 +16,6 @@ $ ->
       left: $magicLine.data('origLeft')
       width: $magicLine.data('origWidth')
     return
+
+  $('.play-btn').click ->
+    $(this).hide()
