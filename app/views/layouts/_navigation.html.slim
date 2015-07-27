@@ -1,11 +1,16 @@
-nav.navbar
-  .container
-    .navbar-header
-      button.navbar-toggle[type="button" data-toggle="collapse" data-target=".navbar-collapse"]
-        span.sr-only Toggle navigation
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
-    .collapse.navbar-collapse
-      ul.nav.navbar-nav.group
-        == render 'layouts/navigation_links'
+
+.col-md-12.col-xs-12.pull-right.menu-container
+  = image_tag('logo.png', id: 'main-logo', class: 'navbar-brand')
+  nav.navbar.main-navbar
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle[type="button" data-toggle="collapse" data-target=".navbar-collapse"]
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+      .collapse.navbar-collapse
+
+        ul.nav.navbar-nav.group
+          == render 'layouts/navigation_links'
+      = link_to('SIGN UP', '#', class: 'sign-up')
