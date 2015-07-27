@@ -19,8 +19,3 @@ $ ->
 
   $('.play-btn').click ->
     $(this).hide()
-
-  $('.sign-up').hover (->
-    $(this).animate { borderColor: '#c44545' }, 1000
-  ), ->
-    $(this).animate { borderColor: '#ffffff' }, 1000

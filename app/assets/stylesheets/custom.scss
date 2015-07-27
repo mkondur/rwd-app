@@ -76,6 +76,14 @@ a.sign-up {
   border-radius: 7px;
   float: right;
   margin-top: 7px;
+  -webkit-transition: border-color 1s ease;
+  -moz-transition: border-color 1s ease;
+  -o-transition: border-color 1s ease;
+  -ms-transition: border-color 1s ease;
+  transition: border-color 1s ease;
+  &:hover {
+    border-color: #c44545;
+  }
 }
 a.find-more {
   font-size: 18px;
@@ -98,7 +106,7 @@ a, a:hover, a:focus {
 
 main {
   background: none;
-  margin-top: 150px;
+  margin-top:0px;
 }
 
 .footer-content {
