@@ -12,10 +12,9 @@ html
     .overlay
       .container
         header
-          = image_tag('logo.png', id: 'main-logo')
           = render 'layouts/navigation'
         main[role="main"]
           = render 'layouts/messages'
           = yield
       footer
-        = render 'layouts/footer'
+          = render 'layouts/footer'

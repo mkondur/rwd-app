@@ -1,9 +1,6 @@
-li.current_page_item
-   = link_to 'HOME', root_path
+li.current_item
+   = link_to 'HOME', '#'
 li = link_to 'ABOUT US', '#'
 li = link_to "WE'RE HAUNTING!", '#'
 li = link_to 'AFTER LIFE PARTY', '#'
 li = link_to 'CONTACT', '#'
-- unless user_signed_in?
-  li = link_to 'SIGN UP', new_user_registration_path
-
