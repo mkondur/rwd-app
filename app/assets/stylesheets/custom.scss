@@ -72,6 +72,7 @@ body {
 }
 
 a.sign-up {
+  opacity: 1;
   border: 1px solid grey;
   padding: 5px 10px;
   border-radius: 7px;
@@ -125,17 +126,13 @@ main {
 }
 
 .navbar-brand {
-  height: 90px;
+  height: 80px;
 }
 
 header {
   margin-top: 20px;
 }
 
-.navbar-nav {
-  float: left;
-}
-
-.navbar-collapse {
-  float:left;
+.menu-container {
+  z-index: 10;
 }

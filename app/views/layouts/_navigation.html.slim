@@ -9,8 +9,9 @@
           span.icon-bar
           span.icon-bar
           span.icon-bar
+        = link_to('SIGN UP', '#', class: 'sign-up visible-xs visible-sm')
       .collapse.navbar-collapse
 
         ul.nav.navbar-nav.group
           == render 'layouts/navigation_links'
-      = link_to('SIGN UP', '#', class: 'sign-up')
+        = link_to('SIGN UP', '#', class: 'sign-up hidden-xs hidden-sm')
